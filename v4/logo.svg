@@ -53,41 +53,41 @@
 		<circle id="circle-wings-right-edge" cx="442" cy="600" r="275" />
 		<rect id="rect-wings-straight-edges" x="283" y="0" width="434" height="600" />
 		<circle id="circle-wings-left-1" cx="300" cy="260" r="200" />
-		<circle id="circle-wings-left-2" cx="320" cy="380" r="200" />
-		<circle id="circle-wings-left-3" cx="350" cy="480" r="200" />
-		<circle id="circle-wings-left-4" cx="400" cy="560" r="200" />
 		<circle id="circle-wings-right-1" cx="700" cy="260" r="200" />
+		<circle id="circle-wings-left-2" cx="320" cy="380" r="200" />
 		<circle id="circle-wings-right-2" cx="680" cy="380" r="200" />
+		<circle id="circle-wings-left-3" cx="350" cy="480" r="200" />
 		<circle id="circle-wings-right-3" cx="650" cy="480" r="200" />
+		<circle id="circle-wings-left-4" cx="400" cy="560" r="200" />
 		<circle id="circle-wings-right-4" cx="600" cy="560" r="200" />
 
 		<line id="line-wings-left-1" x1="-250" y1="110" x2="1250" y2="750" />
 		<polygon id="poly-wings-left-1-above" points="-250 110 1250 750 1000 0 0 0" />
 		<polygon id="poly-wings-left-1-below" points="-250 110 1250 750 1000 1000 0 1000" />
 
-		<line id="line-wings-left-2" x1="-250" y1="310" x2="1250" y2="750" />
-		<polygon id="poly-wings-left-2-above" points="-250 310 1250 750 1000 0 0 0" />
-		<polygon id="poly-wings-left-2-below" points="-250 310 1250 750 1000 1000 0 1000" />
-
-		<line id="line-wings-left-3" x1="-250" y1="480" x2="1250" y2="750" />
-		<polygon id="poly-wings-left-3-above" points="-250 480 1250 750 1000 0 0 0" />
-		<polygon id="poly-wings-left-3-below" points="-250 480 1250 750 1000 1000 0 1000" />
-
-		<line id="line-wings-left-4" x1="-250" y1="635" x2="1250" y2="750" />
-		<polygon id="poly-wings-left-4-above" points="-250 635 1250 750 1000 0 0 0" />
-		<polygon id="poly-wings-left-4-below" points="-250 635 1250 750 1000 1000 0 1000" />
-
 		<line id="line-wings-right-1" x1="-250" y1="750" x2="1250" y2="110" />
 		<polygon id="poly-wings-right-1-above" points="-250 750 1250 110 1000 0 0 0" />
 		<polygon id="poly-wings-right-1-below" points="-250 750 1250 110 1000 1000 0 1000" />
+
+		<line id="line-wings-left-2" x1="-250" y1="310" x2="1250" y2="750" />
+		<polygon id="poly-wings-left-2-above" points="-250 310 1250 750 1000 0 0 0" />
+		<polygon id="poly-wings-left-2-below" points="-250 310 1250 750 1000 1000 0 1000" />
 
 		<line id="line-wings-right-2" x1="-250" y1="750" x2="1250" y2="310" />
 		<polygon id="poly-wings-right-2-above" points="-250 750 1250 310 1000 0 0 0" />
 		<polygon id="poly-wings-right-2-below" points="-250 750 1250 310 1000 1000 0 1000" />
 
+		<line id="line-wings-left-3" x1="-250" y1="480" x2="1250" y2="750" />
+		<polygon id="poly-wings-left-3-above" points="-250 480 1250 750 1000 0 0 0" />
+		<polygon id="poly-wings-left-3-below" points="-250 480 1250 750 1000 1000 0 1000" />
+
 		<line id="line-wings-right-3" x1="-250" y1="750" x2="1250" y2="480" />
 		<polygon id="poly-wings-right-3-above" points="-250 750 1250 480 1000 0 0 0" />
 		<polygon id="poly-wings-right-3-below" points="-250 750 1250 480 1000 1000 0 1000" />
+
+		<line id="line-wings-left-4" x1="-250" y1="635" x2="1250" y2="750" />
+		<polygon id="poly-wings-left-4-above" points="-250 635 1250 750 1000 0 0 0" />
+		<polygon id="poly-wings-left-4-below" points="-250 635 1250 750 1000 1000 0 1000" />
 
 		<line id="line-wings-right-4" x1="-250" y1="750" x2="1250" y2="635" />
 		<polygon id="poly-wings-right-4-above" points="-250 750 1250 635 1000 0 0 0" />
@@ -195,22 +195,22 @@
 		<g id="guides-wings">
 			<use xlink:href="#circle-wings-left-edge" class="guide" />
 			<use xlink:href="#circle-wings-right-edge" class="guide" />
-			<!-- <use xlink:href="#circle-wings-left-1" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-left-2" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-left-3" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-left-4" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-right-1" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-right-2" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-right-3" class="guide" /> -->
-			<!-- <use xlink:href="#circle-wings-right-4" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-left-1" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-left-2" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-left-3" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-left-4" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-right-1" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-right-2" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-right-3" class="guide" /> -->
-			<!-- <use xlink:href="#line-wings-right-4" class="guide" /> -->
+			<use xlink:href="#circle-wings-left-1" class="guide" />
+			<use xlink:href="#circle-wings-left-2" class="guide" />
+			<use xlink:href="#circle-wings-left-3" class="guide" />
+			<use xlink:href="#circle-wings-left-4" class="guide" />
+			<use xlink:href="#circle-wings-right-1" class="guide" />
+			<use xlink:href="#circle-wings-right-2" class="guide" />
+			<use xlink:href="#circle-wings-right-3" class="guide" />
+			<use xlink:href="#circle-wings-right-4" class="guide" />
+			<use xlink:href="#line-wings-left-1" class="guide" />
+			<use xlink:href="#line-wings-left-2" class="guide" />
+			<use xlink:href="#line-wings-left-3" class="guide" />
+			<use xlink:href="#line-wings-left-4" class="guide" />
+			<use xlink:href="#line-wings-right-1" class="guide" />
+			<use xlink:href="#line-wings-right-2" class="guide" />
+			<use xlink:href="#line-wings-right-3" class="guide" />
+			<use xlink:href="#line-wings-right-4" class="guide" />
 		</g>
 	</defs>
 	<g mask="url(#mask-profile-border-0)">
