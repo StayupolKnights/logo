@@ -77,35 +77,35 @@
 		<circle id="circle-wings-left-4" cx="400" cy="560" r="200" />
 		<circle id="circle-wings-right-4" cx="600" cy="560" r="200" />
 
-		<line id="line-wings-left-1" x1="-250" y1="110" x2="1250" y2="750" />
+		<line id="line-wings-left-1" x1="-250" x2="1250" y1="110" y2="750" />
 		<polygon id="poly-wings-left-1-above" points="-250 110 1250 750 1000 0 0 0" />
 		<polygon id="poly-wings-left-1-below" points="-250 110 1250 750 1000 1000 0 1000" />
 
-		<line id="line-wings-right-1" x1="-250" y1="750" x2="1250" y2="110" />
+		<line id="line-wings-right-1" x1="-250" x2="1250" y1="750" y2="110" />
 		<polygon id="poly-wings-right-1-above" points="-250 750 1250 110 1000 0 0 0" />
 		<polygon id="poly-wings-right-1-below" points="-250 750 1250 110 1000 1000 0 1000" />
 
-		<line id="line-wings-left-2" x1="-250" y1="310" x2="1250" y2="750" />
+		<line id="line-wings-left-2" x1="-250" x2="1250" y1="310" y2="750" />
 		<polygon id="poly-wings-left-2-above" points="-250 310 1250 750 1000 0 0 0" />
 		<polygon id="poly-wings-left-2-below" points="-250 310 1250 750 1000 1000 0 1000" />
 
-		<line id="line-wings-right-2" x1="-250" y1="750" x2="1250" y2="310" />
+		<line id="line-wings-right-2" x1="-250" x2="1250" y1="750" y2="310" />
 		<polygon id="poly-wings-right-2-above" points="-250 750 1250 310 1000 0 0 0" />
 		<polygon id="poly-wings-right-2-below" points="-250 750 1250 310 1000 1000 0 1000" />
 
-		<line id="line-wings-left-3" x1="-250" y1="480" x2="1250" y2="750" />
+		<line id="line-wings-left-3" x1="-250" x2="1250" y1="480" y2="750" />
 		<polygon id="poly-wings-left-3-above" points="-250 480 1250 750 1000 0 0 0" />
 		<polygon id="poly-wings-left-3-below" points="-250 480 1250 750 1000 1000 0 1000" />
 
-		<line id="line-wings-right-3" x1="-250" y1="750" x2="1250" y2="480" />
+		<line id="line-wings-right-3" x1="-250" x2="1250" y1="750" y2="480" />
 		<polygon id="poly-wings-right-3-above" points="-250 750 1250 480 1000 0 0 0" />
 		<polygon id="poly-wings-right-3-below" points="-250 750 1250 480 1000 1000 0 1000" />
 
-		<line id="line-wings-left-4" x1="-250" y1="635" x2="1250" y2="750" />
+		<line id="line-wings-left-4" x1="-250" x2="1250" y1="635" y2="750" />
 		<polygon id="poly-wings-left-4-above" points="-250 635 1250 750 1000 0 0 0" />
 		<polygon id="poly-wings-left-4-below" points="-250 635 1250 750 1000 1000 0 1000" />
 
-		<line id="line-wings-right-4" x1="-250" y1="750" x2="1250" y2="635" />
+		<line id="line-wings-right-4" x1="-250" x2="1250" y1="750" y2="635" />
 		<polygon id="poly-wings-right-4-above" points="-250 750 1250 635 1000 0 0 0" />
 		<polygon id="poly-wings-right-4-below" points="-250 750 1250 635 1000 1000 0 1000" />
 
@@ -324,8 +324,8 @@
 	</g>
 
 	<!-- <use xlink:href="#logo-color" /> -->
-	<use xlink:href="#logo-watermark-1" />
-	<!-- <use xlink:href="#logo-watermark-2" /> -->
+	<!-- <use xlink:href="#logo-watermark-1" /> -->
+	<use xlink:href="#logo-watermark-2" />
 	<!-- <use xlink:href="#guides-shield" /> -->
 	<!-- <use xlink:href="#guides-wings" /> -->
 </svg>
