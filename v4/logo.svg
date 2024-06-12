@@ -34,19 +34,35 @@
 		</mask>
 		<mask id="mask-shield-left">
 			<use xlink:href="#circle-shield-outer-left" fill="white" />
-			<!-- <use xlink:href="#circle-shield-inner-left" fill="black" /> Add For Watermark -->
+			<use xlink:href="#circle-shield-inner-left" fill="black" /> Add For Watermark
 			<rect x="313" y="355" width="245" height="245" fill="white" />
-			<!-- <use xlink:href="#crest-top-left" fill="black" /> Add For Watermark -->
+			<use xlink:href="#crest-top-left" fill="black" /> Add For Watermark
 			<rect x="500.5" width="50%" height="100%" fill="black" />
 			<rect x="485" y="355" width="30" height="475" fill="white" />
 		</mask>
 		<mask id="mask-shield-right">
 			<use xlink:href="#circle-shield-outer-right" fill="white" />
-			<!-- <use xlink:href="#circle-shield-inner-right" fill="black" /> Add For Watermark -->
+			<use xlink:href="#circle-shield-inner-right" fill="black" /> Add For Watermark
 			<rect x="442" y="355" width="245" height="245" fill="white" />
-			<!-- <use xlink:href="#crest-top-right" fill="black" /> Add For Watermark -->
+			<use xlink:href="#crest-top-right" fill="black" /> Add For Watermark
 			<rect x="-0.5" width="50%" height="100%" fill="black" />
 			<rect x="485" y="355" width="30" height="475" fill="white" />
+		</mask>
+		<mask id="mask-shield-left-watermark">
+			<use xlink:href="#circle-shield-outer-left" fill="white" />
+			<rect x="313" y="355" width="245" height="245" fill="white" />
+			<rect x="500.5" width="50%" height="100%" fill="black" />
+			<rect x="485" y="355" width="30" height="475" fill="white" />
+			<line x1="0%" x2="100%" y1="585" y2="585" class="mask-line" />
+			<line x1="50%" x2="50%" y1="0%" y2="100%" class="mask-line" />
+		</mask>
+		<mask id="mask-shield-right-watermark">
+			<use xlink:href="#circle-shield-outer-right" fill="white" />
+			<rect x="442" y="355" width="245" height="245" fill="white" />
+			<rect x="-0.5" width="50%" height="100%" fill="black" />
+			<rect x="485" y="355" width="30" height="475" fill="white" />
+			<line x1="0%" x2="100%" y1="585" y2="585" class="mask-line" />
+			<line x1="50%" x2="50%" y1="0%" y2="100%" class="mask-line" />
 		</mask>
 
 		<circle id="circle-wings-left-edge" cx="558" cy="600" r="275" />
@@ -212,33 +228,55 @@
 			<use xlink:href="#line-wings-right-3" class="guide" />
 			<use xlink:href="#line-wings-right-4" class="guide" />
 		</g>
+
+		<g id="logo-color">
+			<rect id="shield-left" width="100%" height="100%" class="shield" mask="url(#mask-shield-left)" />
+			<rect id="shield-right" width="100%" height="100%" class="shield" mask="url(#mask-shield-right)" />
+
+			<use id="crest-top-left" xlink:href="#crest-top-left" class="crest-primary" />
+			<use id="crest-top-right" xlink:href="#crest-top-right" class="crest-secondary" />
+			<rect id="crest-bottom-left" width="100%" height="100%" class="crest-secondary"
+				mask="url(#mask-crest-bottom-left)" />
+			<rect id="crest-bottom-right" width="100%" height="100%" class="crest-primary"
+				mask="url(#mask-crest-bottom-right)" />
+
+			<rect id="wings-left-4" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-4)" />
+			<rect id="wings-right-4" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-4)" />
+			<rect id="wings-left-3" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-3)" />
+			<rect id="wings-right-3" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-3)" />
+			<rect id="wings-left-2" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-2)" />
+			<rect id="wings-right-2" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-2)" />
+			<rect id="wings-left-1" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-1)" />
+			<rect id="wings-right-1" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-1)" />
+		</g>
+		<g id="logo-watermark-1">
+			<rect id="shield-left" width="100%" height="100%" class="watermark" mask="url(#mask-shield-left)" />
+			<rect id="shield-right" width="100%" height="100%" class="watermark" mask="url(#mask-shield-right)" />
+
+			<rect id="wings-left-4" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-4)" />
+			<rect id="wings-right-4" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-4)" />
+			<rect id="wings-left-3" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-3)" />
+			<rect id="wings-right-3" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-3)" />
+			<rect id="wings-left-2" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-2)" />
+			<rect id="wings-right-2" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-2)" />
+			<rect id="wings-left-1" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-1)" />
+			<rect id="wings-right-1" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-1)" />
+		</g>
+		<g id="logo-watermark-2">
+			<rect id="shield-left" width="100%" height="100%" class="watermark" mask="url(#mask-shield-left-watermark)" />
+			<rect id="shield-right" width="100%" height="100%" class="watermark" mask="url(#mask-shield-right-watermark)" />
+
+			<rect id="wings-left-4" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-4)" />
+			<rect id="wings-right-4" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-4)" />
+			<rect id="wings-left-3" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-3)" />
+			<rect id="wings-right-3" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-3)" />
+			<rect id="wings-left-2" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-2)" />
+			<rect id="wings-right-2" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-2)" />
+			<rect id="wings-left-1" width="100%" height="100%" class="watermark" mask="url(#mask-wings-left-1)" />
+			<rect id="wings-right-1" width="100%" height="100%" class="watermark" mask="url(#mask-wings-right-1)" />
+		</g>
 	</defs>
-	<g mask="url(#mask-profile-border-0)">
-		<image width="1000" height0="1000" xlink:href="../v3/v3_Blue.png" opacity="0.5" />
-		<rect id="background" width="1000" height="1000" class="background" />
 
-		<rect id="shield-left" width="100%" height="100%" class="shield" mask="url(#mask-shield-left)" />
-		<rect id="shield-right" width="100%" height="100%" class="shield" mask="url(#mask-shield-right)" />
-
-		<use id="crest-top-left" xlink:href="#crest-top-left" class="crest-primary" />
-		<use id="crest-top-right" xlink:href="#crest-top-right" class="crest-secondary" />
-		<rect id="crest-bottom-left" width="100%" height="100%" class="crest-secondary"
-			mask="url(#mask-crest-bottom-left)" />
-		<rect id="crest-bottom-right" width="100%" height="100%" class="crest-primary"
-			mask="url(#mask-crest-bottom-right)" />
-
-		<rect id="wings-left-4" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-4)" />
-		<rect id="wings-right-4" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-4)" />
-		<rect id="wings-left-3" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-3)" />
-		<rect id="wings-right-3" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-3)" />
-		<rect id="wings-left-2" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-2)" />
-		<rect id="wings-right-2" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-2)" />
-		<rect id="wings-left-1" width="100%" height="100%" class="wings" mask="url(#mask-wings-left-1)" />
-		<rect id="wings-right-1" width="100%" height="100%" class="wings" mask="url(#mask-wings-right-1)" />
-
-		<!-- <use xlink:href="#guides-shield" /> -->
-		<!-- <use xlink:href="#guides-wings" /> -->
-	</g>
 	<style>
 		.mask-line {
 			stroke: black;
@@ -248,7 +286,6 @@
 
 		.background {
 			fill: #00305a;
-			/* fill: none; */
 		}
 
 		.crest-primary {
@@ -269,16 +306,26 @@
 			/* opacity: 0.5; */
 		}
 
+		.watermark {
+			fill: white;
+		}
+
 		.guide {
 			fill: none;
 			stroke: white;
 			stroke-width: 0.05%;
 			stroke-opacity: 0.5;
 		}
-
-		.align {
-			fill: #0ff;
-			fill-opacity: 0.5;
-		}
 	</style>
+
+	<g mask="url(#mask-profile-border-0)">
+		<image width="1000" height0="1000" xlink:href="../v3/v3_Blue.png" opacity="0.5" />
+		<rect id="background" width="1000" height="1000" class="background" />
+	</g>
+
+	<!-- <use xlink:href="#logo-color" /> -->
+	<use xlink:href="#logo-watermark-1" />
+	<!-- <use xlink:href="#logo-watermark-2" /> -->
+	<!-- <use xlink:href="#guides-shield" /> -->
+	<!-- <use xlink:href="#guides-wings" /> -->
 </svg>
